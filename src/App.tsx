@@ -6,12 +6,12 @@ const links = [
     url: "https://www.thejoshhendrix.com/",
   },
   {
-    name: "React Docs",
-    url: "https://reactjs.org/",
+    name: "HENDX (My Web3 Project)",
+    url: "https://hennyscript.netlify.app/",
   },
   {
-    name: "Add Tailwind CSS",
-    url: "https://tailwindcss.com/docs/guides/create-react-app",
+    name: "Web3 Dapp Blockchain Game",
+    url: "https://darling-crepe-c9d52e.netlify.app/",
   },
   {
     name: "Learn React",
