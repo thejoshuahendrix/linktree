@@ -27,9 +27,6 @@ const App = () => {
   return (
     <>
     <div><h2>Josh's Links</h2></div>
-    <div></div>
-    <div></div>
-    <div></div>
       {links.map((link) => (
         <div className="linkbox">
           <a href={link.url}>{link.name}</a>
