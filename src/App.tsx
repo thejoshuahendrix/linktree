@@ -14,18 +14,22 @@ const links = [
     url: "https://darling-crepe-c9d52e.netlify.app/",
   },
   {
-    name: "Learn React",
-    url: "https://reactjs.org/docs/getting-started.html",
+    name: "My LinkedIn",
+    url: "https://www.linkedin.com/in/joshua-hendrix-a03066144/",
   },
   {
-    name: "Vite + React",
-    url: "https://vitejs.dev/guide/#scaffolding-your-first-vite-project",
+    name: "My GitHub",
+    url: "https://github.com/thejoshuahendrix",
   },
 ];
 
 const App = () => {
   return (
     <>
+    <div><h2>Josh's Links</h2></div>
+    <div></div>
+    <div></div>
+    <div></div>
       {links.map((link) => (
         <div className="linkbox">
           <a href={link.url}>{link.name}</a>
