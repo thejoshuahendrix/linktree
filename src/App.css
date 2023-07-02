@@ -19,10 +19,13 @@
   justify-content: center;
   margin: 2em 0;
   border: 1px solid #ccc;
-  background: linear-gradient(180deg, #272727 0%, #141414 100%);
+  background: linear-gradient(120deg, #272727 0%, #141414 100%);
+  box-shadow: 6px 6px 2px 2px #0000002d;
   border-radius: 0.5em;
   padding: 1em;
   flex-direction: column;
+  transition: .1s ease-in-out;
+
 }
 .linkbox:hover {
   display: flex;
