@@ -13,6 +13,11 @@ const links = [
     name: "My GitHub",
     url: "https://github.com/thejoshuahendrix",
   },
+  {
+    name: "My Github REPO of Resources",
+    url: "https://github.com/thejoshuahendrix/repo-of-repos"
+  }
+
 ];
 
 const App = () => {
@@ -29,3 +34,6 @@ const App = () => {
 };
 
 export default App;
+
+
+
