@@ -2,8 +2,8 @@ import "./App.css";
 
 const links = [
   {
-    name: "My Portfolio",
-    url: "https://www.hendx.dev/",
+    name: "My TikTok",
+    url: "https://www.tiktok.com/@joshhenny",
   },
   {
     name: "My LinkedIn",
@@ -13,6 +13,10 @@ const links = [
     name: "My GitHub",
     url: "https://github.com/thejoshuahendrix",
   },
+  {
+    name: "My YouTube"
+    url: "https://www.youtube.com/channel/UC9zrt277wSXsHyCmPgUqzdQ"
+  }
   {
     name: "My Github REPO of Resources",
     url: "https://github.com/thejoshuahendrix/repo-of-repos"
