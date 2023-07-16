@@ -14,20 +14,21 @@ const links = [
     url: "https://github.com/thejoshuahendrix",
   },
   {
-    name: "My YouTube"
-    url: "https://www.youtube.com/channel/UC9zrt277wSXsHyCmPgUqzdQ"
-  }
+    name: "My YouTube",
+    url: "https://www.youtube.com/channel/UC9zrt277wSXsHyCmPgUqzdQ",
+  },
   {
     name: "My Github REPO of Resources",
-    url: "https://github.com/thejoshuahendrix/repo-of-repos"
-  }
-
+    url: "https://github.com/thejoshuahendrix/repo-of-repos",
+  },
 ];
 
 const App = () => {
   return (
     <>
-    <div><h2>Josh's Links</h2></div>
+      <div>
+        <h2>Josh's Links</h2>
+      </div>
       {links.map((link) => (
         <div className="linkbox">
           <a href={link.url}>{link.name}</a>
@@ -38,6 +39,3 @@ const App = () => {
 };
 
 export default App;
-
-
-
