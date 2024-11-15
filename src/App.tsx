@@ -2,6 +2,10 @@ import "./App.css";
 
 const links = [
   {
+    name: "My Portfolio",
+    url: "https://joshhendrix.me",
+  },
+  {
     name: "My TikTok",
     url: "https://www.tiktok.com/@joshhenny",
   },
@@ -30,7 +34,10 @@ const App = () => {
         <h2>Josh's Links</h2>
       </div>
       {links.map((link) => (
-        <div className="linkbox">
+        <div
+          onClick={() => (window.location.href = link.url)}
+          className="linkbox"
+        >
           <a href={link.url}>{link.name}</a>
         </div>
       ))}
