@@ -25,6 +25,10 @@ const links = [
     name: "My Github REPO of Resources",
     url: "https://github.com/thejoshuahendrix/repo-of-repos",
   },
+  {
+    name: "Build Your Own X REPO",
+    url: "https://github.com/codecrafters-io/build-your-own-x",
+  },
 ];
 
 const App = () => {
