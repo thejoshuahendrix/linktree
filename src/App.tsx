@@ -2,7 +2,7 @@ import "./App.css";
 
 const links = [
   {
-    name: "My Patreon [Please help feed my family]",
+    name: "My Patreon",
     url: "https://patreon.com/user?u=14418362",
   },
   {
